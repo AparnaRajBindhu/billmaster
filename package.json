@@ -1,0 +1,32 @@
+{
+  "name": "billmaster",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "heroku-postinstall": "ng build --aot -prod"
+  },
+  "engines": {
+    "node": "6.11.0",
+    "npm": "3.10.10"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "cookie-parser": "~1.4.3",
+    "d3": "^5.9.2",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "mongoose": "~4.4",
+    "morgan": "~1.9.0",
+    "mysql": "^2.16.0",
+    "request": "^2.88.0",
+    "@angular/cli": "1.4.9",
+    "@angular/compiler-cli": "^4.4.6",
+    "typescript": "~2.3.3"
+  },
+  "devDependencies": {
+    "@angular/cli": "^7.3.5"
+  }
+}

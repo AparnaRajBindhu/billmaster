@@ -1,0 +1,17 @@
+* { 
+	font-family: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+body {
+  background-color: azure;
+  padding: 50px;
+  font-family: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+.padding-top-20{
+	padding-top: 20px;
+}
+.padding-left-50{
+	padding-left: 50px;
+}
